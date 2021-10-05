@@ -74,10 +74,14 @@
           <div style="text-align: center;">
           <h1>Killer Queen CTF 2021</h1>
           <h2>October 29, 30, & 31, 2021</h2>
-          <div>
-            <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-            <a target="_blank" href="https://logwork.com/countdown-q5ih" class="countdown-timer" data-timezone="America/Denver" data-textcolor="#f8f8f8" data-date="2021-10-29 00:00" data-background="#494949" data-digitscolor="#d4595a" data-unitscolor="#b8b8b8">&#160</a>
-          </div>
+          <script>
+            if (window.outerWidth > 900) {
+              document.write('<div>');
+              document.write('<script src="https://cdn.logwork.com/widget/countdown.js"><\/script>');
+              document.write('<a target=\"_blank\" href=\"https://logwork.com/countdown-q5ih\" class=\"countdown-timer\" data-timezone=\"America/Denver\" data-textcolor=\"#f8f8f8\" data-date=\"2021-10-29 00:00\" data-background=\"#494949\" data-digitscolor=\"#d4595a\" data-unitscolor=\"#b8b8b8\">&#160<\/a>');
+              document.write('<\/div>');
+            }
+          </script>
           <div>
             <a href="#about" class="btn-get-started scrollto">Learn More</a>
           </div>
